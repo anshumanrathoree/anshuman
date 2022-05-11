@@ -11,10 +11,8 @@ public:
 		{
 		    sort(v.begin(),v.end());
 		    int n=v.size();
-		    if(n==1)
-		    return v[0];
-		    if(n==2)
-		    return (v[0]+v[1])/2;
+		    
+		   // return (v[0]+v[1])/2;
 		    if(n%2==0)
 		    {
 		        int m=n/2;
