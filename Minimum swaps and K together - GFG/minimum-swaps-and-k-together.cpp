@@ -42,36 +42,7 @@ public:
         return ans;
     }
 };
-/*int count=0;
-        for(int i=0;i<n;i++)
-        {
-            if(arr[i]<=k)
-            count++;
-        }
-        //in the window getting the count of all the bad numbers(>k)
-        int bad=0;
-        for(int i=0;i<count;i++)
-        {
-            if(arr[i]>k)
-            bad++;
-        }
-        int ans=bad;
-        int i=0;
-        int j=count;
-       while(j<n)
-        {
-            //in the window if the excluding element was a bad element
-            if(arr[i]>k)
-            bad--;
-            
-            //in the window if the next including element is a bad element
-            if(arr[j]>k)
-            bad++;
-            ans=min(ans,bad);
-            i++;
-            j++;
-        }
-        return ans;*/
+
 
 
 // { Driver Code Starts.
